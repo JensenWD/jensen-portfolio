@@ -36,3 +36,5 @@ Homestead.json
 package-lock\.json
 
 public/mix-manifest\.json
+
+\.DS_Store
