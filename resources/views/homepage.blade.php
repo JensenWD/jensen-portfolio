@@ -44,12 +44,13 @@
                     <div class="col-12 skills_wrapper">
                         <div class="row h-100">
                             <div class="col-12 col-lg-4 skills_container">
-                                <h3 class="montserrat bold_font">Dev stack</h3>
+                                <h3 class="montserrat bold_font">Technologies</h3>
                                 <div class="mt-3 text-left">
                                     <span class="badge badge-pill">Laravel 5+</span>
                                     <span class="badge badge-pill">Vue.js</span>
                                     <span class="badge badge-pill">PHP 5+</span>
-                                    <span class="badge badge-pill">Ecmascript 5+</span>
+                                    <span class="badge badge-pill">ES 5+/Javascript</span>
+                                    <span class="badge badge-pill">JSON</span>
                                     <span class="badge badge-pill">Bootstrap 3+</span>
                                     <span class="badge badge-pill">SASS</span>
                                     <span class="badge badge-pill">HTML+CSS</span>
@@ -65,13 +66,13 @@
                                 <h3 class="montserrat bold_font">Tools/Practice</h3>
                                 <div class="mt-3 text-left">
                                     <span class="badge badge-pill">Webpack</span>
+                                    <span class="badge badge-pill">Amazon Web Services</span>
                                     <span class="badge badge-pill">Git</span>
                                     <span class="badge badge-pill">GitHub</span>
                                     <span class="badge badge-pill">Laravel Forge</span>
                                     <span class="badge badge-pill">Composer</span>
                                     <span class="badge badge-pill">NPM</span>
                                     <span class="badge badge-pill">SEO</span>
-                                    <span class="badge badge-pill">Cross-browser compatibility</span>
                                     <span class="badge badge-pill">TDD</span>
                                     <span class="badge badge-pill">PHPUnit</span>
                                     <span class="badge badge-pill">REST</span>
@@ -81,7 +82,6 @@
                             <div class="col-12 col-lg-4 skills_container">
                                 <h3 class="montserrat bold_font">Experience with</h3>
                                 <div class="mt-3 text-left">
-                                    <span class="badge badge-pill">Amazon Web Services</span>
                                     <span class="badge badge-pill">Stripe API</span>
                                     <span class="badge badge-pill">Shopify API</span>
                                     <span class="badge badge-pill">HubSpot</span>
@@ -90,6 +90,7 @@
                                     <span class="badge badge-pill">Scrum</span>
                                     <span class="badge badge-pill">Server Management</span>
                                     <span class="badge badge-pill">DevOps</span>
+                                    <span class="badge badge-pill">Cross-browser compatibility</span>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +102,7 @@
             </div>
         </div>
 
-        <div class="row mt-5 mb-5">
+        <div id="projects" class="row mt-5 mb-5">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12 section-title">
@@ -210,10 +211,8 @@
                     </div>
 
                     <div class="col-12 d-flex justify-content-center mt-4">
-                        <a href="https://github.com/JensenWD" class="mr-4" target="_blank">
-                            <img src="{{ asset('img/github.svg') }}" alt="" class="img-fluid social-icons"></a>
-                        <a href="https://www.linkedin.com/in/jensenwd/" target="_blank">
-                            <img src="{{ asset('img/linkedin.svg') }}" alt="" class="img-fluid social-icons"></a>
+                        <a href="https://github.com/JensenWD" class="mr-4 social-icon" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/jensenwd/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>

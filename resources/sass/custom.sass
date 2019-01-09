@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat:300,600')
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat:300,500')
 @import projects
 $purple: #423497
 $karla: 'Karla', sans-serif
 $montserrat: 'Montserrat', sans-serif
 $light: 300
 $regular: 400
-$semi-bold: 600
+$semi-bold: 500
 
 .purple-font
   color: $purple !important
@@ -27,8 +27,8 @@ $semi-bold: 600
 
 body
   button:active, button:focus
-    outline: none
-    box-shadow: none
+    outline: none !important
+    box-shadow: none !important
 
   p, span, a, button, input
     color: #646464
@@ -36,6 +36,9 @@ body
 
   p, span, a, button, input
     font-size: 18px
+
+  h3
+    font-size: 23px
 
   a:hover
     text-decoration: none
@@ -262,8 +265,12 @@ form
     .btn_effect_bg
       width: 100%
 
-.social-icons
-  width: 30px
+.social-icon
+  font-size: 40px
+  color: white
+
+.social-icon:hover
+  color: white
 
 @media (max-width: 1199px)
   .contact-section
