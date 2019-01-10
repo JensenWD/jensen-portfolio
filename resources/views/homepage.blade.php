@@ -60,12 +60,15 @@
                                     <span class="badge badge-pill">Apache</span>
                                     <span class="badge badge-pill">Symfony 3+</span>
                                     <span class="badge badge-pill">Node.js</span>
+                                    <span class="badge badge-pill">Vagrant</span>
+                                    <span class="badge badge-pill">VirtualBox</span>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4 skills_container">
                                 <h3 class="montserrat bold_font">Tools/Practice</h3>
                                 <div class="mt-3 text-left">
                                     <span class="badge badge-pill">Webpack</span>
+                                    <span class="badge badge-pill">Homestead</span>
                                     <span class="badge badge-pill">Amazon Web Services</span>
                                     <span class="badge badge-pill">Git</span>
                                     <span class="badge badge-pill">GitHub</span>
@@ -87,6 +90,7 @@
                                     <span class="badge badge-pill">HubSpot</span>
                                     <span class="badge badge-pill">Infusionsoft API</span>
                                     <span class="badge badge-pill">Agile</span>
+                                    <span class="badge badge-pill">Linux/Ubuntu</span>
                                     <span class="badge badge-pill">Scrum</span>
                                     <span class="badge badge-pill">Server Management</span>
                                     <span class="badge badge-pill">DevOps</span>
