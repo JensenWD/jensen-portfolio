@@ -9,7 +9,6 @@ Morbi laoreet nunc lacus, in pulvinar metus ultricies vitae. Proin luctus maximu
     <div><img src="{{ asset('img/garmeo/landing.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/edit.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/product-overview.png') }}" alt="" class="img-fluid"></div>
-    {{--    <div><img src="{{ asset('img/garmeo/patch-overview.png') }}" alt="" class="img-fluid"></div>--}}
     <div><img src="{{ asset('img/garmeo/patch-swatches.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/share-design.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/swatches.png') }}" alt="" class="img-fluid"></div>
@@ -18,4 +17,13 @@ Morbi laoreet nunc lacus, in pulvinar metus ultricies vitae. Proin luctus maximu
     <div><img src="{{ asset('img/garmeo/inventory-filter.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/orders1.png') }}" alt="" class="img-fluid"></div>
     <div><img src="{{ asset('img/garmeo/orders2.png') }}" alt="" class="img-fluid"></div>
+@endsection
+
+@section('code')
+    <div class="col-12 col-md-6">
+        <img src="{{ asset('img/garmeo/orders1.png') }}" alt="" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="{{ asset('img/garmeo/orders2.png') }}" alt="" class="img-fluid">
+    </div>
 @endsection

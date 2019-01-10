@@ -6,7 +6,7 @@
 @endpush
 
 @section('body')
-    <div class="container-fluid pb-5 projects_wrapper">
+    <div class="container-fluid projects_wrapper">
         <div class="row pt-5 hero_bg">
             <div class="container">
                 <div class="row mb-5">
@@ -37,17 +37,18 @@
         </div>
 
 
-        <div class="row">
+        <div class="row pb-5 contact-section">
+            <div class="bottom_bg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 section-title">
                         <div class="title-bar"></div>
                         <h2 class="montserrat light_font purple-font">Code samples</h2>
                     </div>
+                </div>
 
-                    <div class="col-12 code_samples">
+                <div class="row mt-3">
                         @yield('code')
-                    </div>
                 </div>
             </div>
         </div>
@@ -73,7 +74,7 @@
                             arrows: false,
                             centerMode: true,
                             centerPadding: '40px',
-                            slidesToShow: 3
+                            slidesToShow: 1
                         }
                     },
                     {
