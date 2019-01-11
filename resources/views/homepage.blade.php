@@ -215,8 +215,8 @@
                     </div>
 
                     <div class="col-12 d-flex justify-content-center mt-4">
-                        <a href="https://github.com/JensenWD" class="mr-4 social-icon" target="_blank"><i class="fab fa-github-square"></i></a>
-                        <a href="https://www.linkedin.com/in/jensenwd/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a rel="noreferrer" href="https://github.com/JensenWD" class="mr-4 social-icon" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a rel="noreferrer" href="https://www.linkedin.com/in/jensenwd/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@
     <meta name=description content="Web development portfolio for Laravel & Vue enthusiast Johnatan Jensen">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#423497">
 
     <!-- Bootstrap 4.* CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
